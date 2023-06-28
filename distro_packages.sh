@@ -1,24 +1,9 @@
 # All Packages Stored on Blackwolf Linux
 # 
 
-alacritty 0.12.1-1
-alsa-oss 1.1.8-5
-alsa-plugins 1:1.2.7.1-2
-alsa-utils 1.2.9-1
-amd-ucode 20230625.ee91452d-1
-arch-install-scripts 28-1
-archinstall 2.5.6-1
-arcolinux-app-glade-git r19.8cee1dc-1
-arcolinux-betterlockscreen 21.08.03-1
-arcolinux-logout 22.05_27-1
-autotiling 1.8-3
-b43-fwcutter 019-4
-base 3-1
-base-devel 1-1
-bind 9.18.16-1
-blackarch-keyring 20180925-5
-brltty 6.5-4
-broadcom-wl 6.30.223.271-478
+Yay -S alacritty 0.12.1-1 alsa-oss 1.1.8-5 alsa-plugins 1:1.2.7.1-2 alsa-utils 1.2.9-1 amd-ucode 20230625.ee91452d-1 arch-install-scripts 28-1 \
+archinstall 2.5.6-1 arcolinux-app-glade-git r19.8cee1dc-1 arcolinux-betterlockscreen 21.08.03-1 arcolinux-logout 22.05_27-1 autotiling 1.8-3 b43-fwcutter 019-4 \
+base 3-1 base-devel 1-1 bind 9.18.16-1 blackarch-keyring 20180925-5 brltty 6.5-4 broadcom-wl 6.30.223.271-478
 btrbk 0.32.6-1
 btrfs-assistant 1.8-2
 btrfs-progs 6.3.2-1
