@@ -2,7 +2,6 @@
 # A script for making a blackwolf-linux
 
 #yay
-
 $sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 #Distrobox
@@ -17,9 +16,7 @@ $HOME/.local/podman/bin
 $sudo pacman -S xhost
 $xhost +si:localuser:$USER
 
-$distrobox-create -n blackwolf-linux
-
-$distrobox-enter Blackolfwolf-linux --root
+$distrobox create -i docker.io/library/archlinux -n blackwolf-linux
 
 $sudo pacman -Syu
 
