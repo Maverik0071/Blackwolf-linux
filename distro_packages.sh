@@ -1,5 +1,6 @@
-# All Packages Stored on Blackwolf Linux
-# 
+########################################
+## All Packages Stored on Blackwolf Linux
+######################################## 
 
 git clone https://aur.archlinux.org/yay-bin
 cd yay-bin
