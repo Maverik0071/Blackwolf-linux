@@ -3,14 +3,14 @@
 # WARNING: This will erase data on the target disk. Use with caution.
 
 # Configuration - Modify these variables as needed
-TARGET_DISK="/dev/sda" # Change this to your target disk
+TARGET_DISK="/dev/vda" # Change this to your target disk
 HOSTNAME="archlinux" # Set your desired hostname
 TIMEZONE="UTC" # Set your timezone (e.g., "America/New_York")
 LOCALE="en_US.UTF-8" # Set your locale
 KEYMAP="us" # Set your keyboard layout
-ROOT_PASSWORD="archlinux" # Set root password (change after installation!)
-USER_NAME="user" # Set your username
-USER_PASSWORD="user" # Set user password (change after installation!)
+ROOT_PASSWORD="library04" # Set root password (change after installation!)
+USER_NAME="densetsu" # Set your username
+USER_PASSWORD="library4" # Set user password (change after installation!)
 
 # Partition layout (modify if needed)
 BOOT_PARTITION_SIZE="512M" # Size of boot partition
