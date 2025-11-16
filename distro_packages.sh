@@ -7,289 +7,224 @@ cd yay-bin
 makepkg -si
 
 
-accountsservice 23.13.9-1
-adobe-source-han-sans-cn-fonts 2.004-1
-adobe-source-han-sans-jp-fonts 2.004-1
-adobe-source-han-sans-kr-fonts 2.004-1
-alsa-firmware 1.2.4-3
-alsa-plugins 1:1.2.7.1-2
-alsa-utils 1.2.10-1
-amd-ucode 20230918.3672ccab-1
-arandr 0.1.11-2
-arcolinux-logout 22.05_27-1
-autotiling 1.8-3
-autoupgrade 1.0.0-1
-b43-fwcutter 019-4
-base 3-2
-base-devel 1-1
-bash-completion 2.11-3
-bauh 0.10.5-1.3
-beautyline 1:20230729-1
-bind 9.18.19-1
-bluez 5.70-1
-bluez-utils 5.70-1
-bpytop 1.0.68-1
-btrfs-progs 6.5.3-2
-cantarell-fonts 1:0.303.1-1
-cava 0.9.0-2.1
-chaotic-keyring 20230616-1
-chaotic-mirrorlist 20231021-1
-chromium 119.0.6045.105-1
-cockpit 303-1
-cockpit-file-sharing 3.3.4-1
-cockpit-machines 300-1
-cockpit-navigator 0.5.10-1
-cryptsetup 2.6.1-3
-cups 1:2.4.7-2
-cups-filters 2.0.0-1
-cups-pdf 3.0.1-7
-device-mapper 2.03.22-2
-dhclient 4.4.3.P1-2
-diffutils 3.10-1
-distrobox 1.5.0.2-2
-dmenu 5.2-1
-dmidecode 3.5-1
-dmraid 1.0.0.rc16.3-14
-dnsmasq 2.89-1
-docker 1:24.0.7-1
-dosfstools 4.2-3
-downgrade 11.3.0-1
-dracut 059-3
-duf 0.8.1-2
-e2fsprogs 1.47.0-1
-efibootmgr 18-2
-efitools 1.9.2-5
-endeavouros-keyring 20230523-1
-endeavouros-mirrorlist 23.16-1
-endeavouros-theming 22.12.3.3-2
-eos-apps-info 23-3
-eos-hooks 1.15-1
-eos-log-tool 23-2
-eos-packagelist 2.2-1
-eos-quickstart 1.3.1-2
-eos-rankmirrors 2.24-1
-eos-update-notifier 23-17
-espeak-ng 1.51.1-2
-ethtool 1:6.5-1
-exfatprogs 1.2.2-1
-f2fs-tools 1.16.0-2
-feh 3.10.1-2
-ffmpegthumbnailer 2.2.2-5
-firefox 119.0-1
-firewalld 2.0.1-1
-flatpak 1:1.15.4-1
-foomatic-db 3:20230903-1
-foomatic-db-engine 4:20220521-1
-foomatic-db-gutenprint-ppds 5.3.4-3
-foomatic-db-nonfree 3:20230903-1
-foomatic-db-nonfree-ppds 3:20230903-1
-foomatic-db-ppds 3:20230903-1
-fsarchiver 0.8.7-1
-ghostscript 10.02.0-2
-git 2.42.0-1
-glances 3.4.0.3-1
-gnome-terminal 3.50.1-1
-gparted 1.5.0-1
-gsfonts 20200910-3
-gst-libav 1.22.6-1
-gst-plugin-pipewire 1:0.3.83-1
-gst-plugins-bad 1.22.6-1
-gst-plugins-ugly 1.22.6-1
-gufw 22.04-2
-gutenprint 5.3.4-3
-gvfs 1.52.1-1
-haveged 1.9.18-1
-hdparm 9.65-1
-hplip 1:3.23.8-1
-hwdetect 2023.07.02-1
-hwinfo 23.2-1
-i3-wm 4.23-1
-i3blocks 1.5-3
-i3lock 2.14.1-1
-i3status 2.14-1
-inetutils 2.4-2
-inxi 3.3.30.1-2
-iptables-nft 1:1.8.9-1
-iwd 2.8-1
-jetbrains-toolbox 2.0.5.17700-1
-jfsutils 1.1.15-8
-jgmenu 4.4.1-1
-kernel-install-for-dracut 1.9.1-1
-less 1:643-1
-libdvdcss 1.4.3-1
-libgsf 1.14.50-1
-libopenraw 0.3.7-1
-libwnck3 43.0-3
-linux 6.5.9.arch2-1
-linux-firmware 20230918.3672ccab-1
-linux-headers 6.5.9.arch2-1
-linux-zen 6.5.9.zen2-1
-linux-zen-headers 6.5.9.zen2-1
-logrotate 3.21.0-2
-lsb-release 2.0.r53.a86f885-1
-lsscsi 0.32-1
-lvm2 2.03.22-2
-lxappearance 0.6.3-4
-ly 0.6.0-1
-man-db 2.12.0-1
-man-pages 6.05.01-2
-mdadm 4.2-2
-meld 3.22.0-2
-mesa-utils 9.0.0-3
-mlocate 0.26.git.20170220-7
-modemmanager 1.22.0-1
-mousepad 0.6.1-3
-mousetweaks 3.32.0-2
-mtools 1:4.0.43-1
-nano 7.2-1
-nano-syntax-highlighting 2020.10.10-1
-neofetch 7.1.0-2
-netctl 1.29-1
-networkmanager 1.44.2-3
-networkmanager-openconnect 1.2.10-1
-networkmanager-openvpn 1.10.2-3
-nfs-utils 2.6.3-1
-nilfs-utils 2.2.9-2
-nitrogen 1.6.1-4
-nm-connection-editor 1.34.0-1
-nm-tray 0.5.0-2
-noto-fonts 1:23.10.1-1
-nss-mdns 0.15.1-1
-ntfs-3g 2022.10.3-1
-ntp 4.2.8.p17-1
-openssh 9.5p1-1
-orca 45.1-1
-pacman-contrib 1.9.1-1
-pacseek 1.7.11-1
-papirus-folders 1.12.0-1.1
-papirus-icon-theme 20230901-1
-parole 4.18.0-1
-pasystray 0.8.2-1
-pavucontrol 1:5.0+r64+geba9ca6-1
-perl 5.38.0-1
-perl-anyevent-i3 0.17-9
-perl-json-xs 4.03-4
-pfetch 0.6.0-3
-picom 10.2-1
-pipewire-alsa 1:0.3.83-1
-pipewire-jack 1:0.3.83-1
-pipewire-pulse 1:0.3.83-1
-pkgfile 21-2
-podman 4.7.2-1
-poppler-glib 23.10.0-1
-popsicle-bin 1.3.1-1
-power-profiles-daemon 0.13-1
-pv 1.8.0-1
-python 3.11.5-2
-python-capng 0.8.3-2
-python-defusedxml 0.7.1-5
-python-packaging 23.1-1
-python-pyqt5 5.15.10-1
-python-reportlab 3.6.12-3
-ranger 1.9.3-9
-rebuild-detector 4.4.2-1
-reflector 2023-1
-reflector-simple 2023-4
-reiserfsprogs 3.6.27-4
-ristretto 0.13.1-1
-rofi 1.7.5-2
-rofi-themes-collection-git 0.0.1-1
-rsync 3.2.7-6
-rtkit 0.13-2
-s-nail 14.9.24-2
-sg3_utils 1.47-1
-smartmontools 7.4-1
-sof-firmware 2023.09-1
-splix 2.0.0-20
-stacer 1.1.0-1.4
-sudo 1.9.14.p3-1
-sweet-folders-icons-git r14.b2192ff-1
-sweet-gtk-theme 3.0-1.1
-sysfsutils 2.1.1-1
-system-config-printer 1.5.18-2
-systemd-sysvcompat 254.5-1
-terminus-font 4.49.1-6
-texinfo 7.1-1
-themix-icons-papirus-git 20230901.r47.g5183e15de4-1
-thorium-bin 2.3.0-2
-thorium-browser-bin 117.0.5938.157-3
-thunar 4.18.8-1
-thunar-archive-plugin 0.5.2-1
-thunar-media-tags-plugin 0.4.0-1
-thunar-volman 4.18.0-1
-timeshift 23.07.1-2
-timeshift-systemd-timer 0.0.1-2
-tldr 3.2.0-1
-ttf-bitstream-vera 1.10-15
-ttf-dejavu 2.37+18+g9b5d1b2f-4
-ttf-jetbrains-mono 2.304-1
-ttf-jetbrains-mono-nerd 3.0.2-1
-ttf-liberation 2.1.5-1
-ttf-opensans 1.101-2
-ttf-terminus-nerd 3.0.2-1
-ufw 0.36.2-2
-ufw-extras 0.7.0-3
-unrar 1:6.2.12-1
-unzip 6.0-20
-update-grub 0.0.1-8
-upower 1.90.2-1
-usb_modeswitch 2.6.1-3
-usbutils 017-1
-vi 1:070224-6
-vim 9.0.2070-1
-volumeicon 0.5.1-5
-welcome 3.78-1
-wget 1.21.4-1
-which 2.21-6
-wireplumber 0.4.15-1
-wpa_actiond 1.4-4
-wpa_supplicant 2:2.10-8
-xdg-user-dirs 0.18-1
-xdg-utils 1.1.3+45+g301a1a4-1
-xf86-input-libinput 1.4.0-1
-xf86-video-amdgpu 23.0.0-1
-xf86-video-ati 1:22.0.0-1
-xf86-video-vesa 2.6.0-1
-xfburn 0.7.0-1
-xfce4-appfinder 4.18.1-1
-xfce4-artwork 0.1.1a_git20110420-6
-xfce4-battery-plugin 1.1.5-1
-xfce4-clipman-plugin 1.6.5-1
-xfce4-cpufreq-plugin 1.2.8-1
-xfce4-cpugraph-plugin 1.2.8-1
-xfce4-dict 0.8.5-1
-xfce4-diskperf-plugin 2.7.0-1
-xfce4-eyes-plugin 4.6.0-1
-xfce4-fsguard-plugin 1.1.3-1
-xfce4-genmon-plugin 4.2.0-1
-xfce4-mailwatch-plugin 1.3.1-1
-xfce4-mount-plugin 1.1.6-1
-xfce4-mpc-plugin 0.5.3-1
-xfce4-netload-plugin 1.4.1-1
-xfce4-notes-plugin 1.10.0-1
-xfce4-notifyd 0.9.3-1
-xfce4-power-manager 4.18.2-1
-xfce4-pulseaudio-plugin 0.4.8-1
-xfce4-screensaver 4.18.2-1
-xfce4-screenshooter 1.10.4-1
-xfce4-sensors-plugin 1.4.4-1
-xfce4-session 4.18.3-1
-xfce4-settings 4.18.3-1
-xfce4-smartbookmark-plugin 0.5.2-1
-xfce4-systemload-plugin 1.3.2-1
-xfce4-taskmanager 1.5.6-2
+sudo pacman -S no-confirm accountsservice 
+sudo pacman -S no-confirm adobe-source-han-sans-cn- fonts 
+sudo pacman -S --noconfirm --needed adobe-source-han-sans-jp-fonts 
+sudo pacman -S --noconfirm --needed adobe-source-han-sans-kr-fonts 
+sudo pacman -S --noconfirm --needed alsa-firmware 
+sudo pacman -S --noconfirm --needed alsa-plugins 
+sudo pacman -S --noconfirm --needed alsa-utils
+sudo pacman -S --noconfirm --needed arandr  
+sudo pacman -S --noconfirm --needed autotiling
+sudo pacman -S --noconfirm --needed base
+sudo pacman -S --noconfirm --needed base-devel
+sudo pacman -S --noconfirm --needed bash-completion
+sudo pacman -S --noconfirm --needed beautyline
+sudo pacman -S --noconfirm --needed bind
+sudo pacman -S --noconfirm --needed bluez
+sudo pacman -S --noconfirm --needed bluez-utils
+sudo pacman -S --noconfirm --needed bpytop
+sudo pacman -S --noconfirm --needed cantarell-fonts
+sudo pacman -S --noconfirm --needed cava
+sudo pacman -S --noconfirm --needed chaotic-keyring
+sudo pacman -S --noconfirm --neededchaotic-mirrorlist
+sudo pacman -S --noconfirm --needed brave-bin
+sudo pacman -S --noconfirm --needed cryptsetup
+sudo pacman -S --noconfirm --needed cups
+sudo pacman -S --noconfirm --needed cups-filters
+sudo pacman -S --noconfirm --needed cups-pdf
+sudo pacman -S --noconfirm --needed device-mapper
+sudo pacman -S --noconfirm --needed dhclient
+sudo pacman -S --noconfirm --needed diffutils 
+sudo pacman -S --noconfirm --needed distrobox 
+sudo pacman -S --noconfirm --needed dmenu
+sudo pacman -S --noconfirm --needed dnsmasq
+sudo pacman -S --noconfirm --needed docker
+sudo pacman -S --noconfirm --needed dosfstools
+sudo pacman -S --noconfirm --needed downgrade 
+sudo pacman -S --noconfirm --needed dracut
+sudo pacman -S --noconfirm --needed duf
+sudo pacman -S --noconfirm --needed 2fsprogs 
+sudo pacman -S --noconfirm --needed efibootmgr
+sudo pacman -S --noconfirm --needed efitools
+sudo pacman -S --noconfirm --needed espeak-ng
+sudo pacman -S --noconfirm --needed ethtool
+sudo pacman -S --noconfirm --needed exfatprogs 
+sudo pacman -S --noconfirm --needed f2fs-tools
+sudo pacman -S --noconfirm --needed feh
+sudo pacman -S --noconfirm --needed ffmpegthumbnailer
+sudo pacman -S --noconfirm --needed firefox 
+sudo pacman -S --noconfirm --needed firewalld
+sudo pacman -S --noconfirm --needed flatpak
+sudo pacman -S --noconfirm --needed foomatic-db
+sudo pacman -S --noconfirm --needed foomatic-db-engine
+sudo pacman -S --noconfirm --needed foomatic-db-gutenprint-ppds 
+sudo pacman -S --noconfirm --neededfoomatic-db-nonfree
+sudo pacman -S --noconfirm --needed foomatic-db-nonfree-ppds
+sudo pacman -S --noconfirm --needed foomatic-db-ppds
+sudo pacman -S --noconfirm --needed sarchiver
+sudo pacman -S --noconfirm --needed git
+sudo pacman -S --noconfirm --needed glances
+sudo pacman -S --noconfirm --needed gparted
+sudo pacman -S --noconfirm --needed gsfonts
+sudo pacman -S --noconfirm --needed gst-libav
+sudo pacman -S --noconfirm --needed gst-plugin-pipewire
+sudo pacman -S --noconfirm --needed gst-plugins-bad
+sudo pacman -S --noconfirm --needed gst-plugins-ugly
+sudo pacman -S --noconfirm --needed gufw
+sudo pacman -S --noconfirm --needed gutenprint
+sudo pacman -S --noconfirm --needed gvfs
+sudo pacman -S --noconfirm --needed haveged
+sudo pacman -S --noconfirm --needed hdparm
+sudo pacman -S --noconfirm --needed hplip
+sudo pacman -S --noconfirm --needed hwdetect
+sudo pacman -S --noconfirm --needed hwinfo
+sudo pacman -S --noconfirm --needed i3-wm
+sudo pacman -S --noconfirm --needed i3blocks 
+sudo pacman -S --noconfirm --needed i3lock
+sudo pacman -S --noconfirm --needed i3status
+sudo pacman -S --noconfirm --needed inetutils
+sudo pacman -S --noconfirm --needed inxi
+sudo pacman -S --noconfirm --needed iptables-nft
+sudo pacman -S --noconfirm --needed iwd
+sudo pacman -S --noconfirm --needed jfsutils
+sudo pacman -S --noconfirm --needed jgmenu 
+sudo pacman -S --noconfirm --needed kernel-install-for-dracut
+sudo pacman -S --noconfirm --needed less
+sudo pacman -S --noconfirm --needed libdvdcss
+sudo pacman -S --noconfirm --needed libgsf
+sudo pacman -S --noconfirm --needed libopenraw
+sudo pacman -S --noconfirm --needed libwnck3
+sudo pacman -S --noconfirm --needed linux
+sudo pacman -S --noconfirm --needed linux-firmware
+sudo pacman -S --noconfirm --needed linux-headers
+sudo pacman -S --noconfirm --needed linux-zen 
+sudo pacman -S --noconfirm --needed linux-zen-headers 
+sudo pacman -S --noconfirm --needed logrotate 
+sudo pacman -S --noconfirm --needed lsb-release 
+sudo pacman -S --noconfirm --needed lsscsi
+sudo pacman -S --noconfirm --needed lvm2
+sudo pacman -S --noconfirm --needed lxappearance 
+sudo pacman -S --noconfirm --needed ly 
+sudo pacman -S --noconfirm --needed man-db 
+sudo pacman -S --noconfirm --needed man-pages
+sudo pacman -S --noconfirm --needed mdadm
+sudo pacman -S --noconfirm --needed meld
+sudo pacman -S --noconfirm --needed mesa-utils
+sudo pacman -S --noconfirm --needed mlocate
+sudo pacman -S --noconfirm --needed modemmanager
+sudo pacman -S --noconfirm --needed mousepad
+sudo pacman -S --noconfirm --needed mousetweaks
+sudo pacman -S --noconfirm --needed mtools
+sudo pacman -S --noconfirm --needed nano
+sudo pacman -S --noconfirm --needed nano-syntax-highlighting
+sudo pacman -S --noconfirm --needed neofetch
+sudo pacman -S --noconfirm --needed netctl
+sudo pacman -S --noconfirm --needed networkmanager
+sudo pacman -S --noconfirm --needed networkmanager-openconnect
+sudo pacman -S --noconfirm --needed networkmanager-openvpn
+sudo pacman -S --noconfirm --needed nfs-utils
+sudo pacman -S --noconfirm --needed nilfs-utils
+sudo pacman -S --noconfirm --needed nitrogen
+sudo pacman -S --noconfirm --needed nm-connection-editor
+sudo pacman -S --noconfirm --needed nm-tray
+sudo pacman -S --noconfirm --needed noto-fonts 
+sudo pacman -S --noconfirm --needed nss-mdns 
+sudo pacman -S --noconfirm --needed ntfs-3g 
+sudo pacman -S --noconfirm --needed ntp 
+sudo pacman -S --noconfirm --needed openssh 
+sudo pacman -S --noconfirm --needed orca
+sudo pacman -S --noconfirm --needed pacman-contrib
+sudo pacman -S --noconfirm --needed pacseek
+sudo pacman -S --noconfirm --needed papirus-folders
+sudo pacman -S --noconfirm --needed papirus-icon-theme 
+sudo pacman -S --noconfirm --needed pasystray
+sudo pacman -S --noconfirm --needed pavucontrol
+sudo pacman -S --noconfirm --needed perl
+sudo pacman -S --noconfirm --needed perl-anyevent-i3
+sudo pacman -S --noconfirm --needed perl-json-xs
+sudo pacman -S --noconfirm --needed pfetch 
+sudo pacman -S --noconfirm --needed picom 
+sudo pacman -S --noconfirm --needed pipewire-alsa 
+sudo pacman -S --noconfirm --needed pipewire-jack 
+sudo pacman -S --noconfirm --needed pipewire-pulse
+sudo pacman -S --noconfirm --needed pkgfile
+sudo pacman -S --noconfirm --needed podman 
+sudo pacman -S --noconfirm --needed poppler-glib 
+sudo pacman -S --noconfirm --needed popsicle-bin 
+sudo pacman -S --noconfirm --needed power-profiles-daemon
+sudo pacman -S --noconfirm --needed pv
+sudo pacman -S --noconfirm --needed python 
+sudo pacman -S --noconfirm --needed python-capng 
+sudo pacman -S --noconfirm --needed python-defusedxml 
+sudo pacman -S --noconfirm --needed python-packaging 
+sudo pacman -S --noconfirm --needed python-pyqt5 
+sudo pacman -S --noconfirm --needed python-reportlab 
+sudo pacman -S --noconfirm --needed ranger 
+sudo pacman -S --noconfirm --needed rebuild-detector
+sudo pacman -S --noconfirm --needed reflector 
+sudo pacman -S --noconfirm --needed reflector-simple 
+sudo pacman -S --noconfirm --needed reiserfsprogs
+sudo pacman -S --noconfirm --needed ristretto
+sudo pacman -S --noconfirm --needed rofi 
+sudo pacman -S --noconfirm --needed rofi-themes-collection-git 
+sudo pacman -S --noconfirm --needed rsync 
+sudo pacman -S --noconfirm --needed rtkit 
+sudo pacman -S --noconfirm --needed s-nail 
+sudo pacman -S --noconfirm --needed sg3_utils 
+sudo pacman -S --noconfirm --needed smartmontools
+sudo pacman -S --noconfirm --needed splix 
+sudo pacman -S --noconfirm --needed sudo
+sudo pacman -S --noconfirm --needed sweet-folders-icons-git
+sudo pacman -S --noconfirm --needed sweet-gtk-theme 
+sudo pacman -S --noconfirm --needed sysfsutils 
+sudo pacman -S --noconfirm --needed system-config-printer 
+sudo pacman -S --noconfirm --needed systemd-sysvcompat 
+sudo pacman -S --noconfirm --needed terminus-font 
+sudo pacman -S --noconfirm --needed texinfo 
+sudo pacman -S --noconfirm --needed thunar 4
+sudo pacman -S --noconfirm --needed thunar-archive-plugin
+sudo pacman -S --noconfirm --needed thunar-media-tags-plugin 
+sudo pacman -S --noconfirm --needed thunar-volman 
+sudo pacman -S --noconfirm --needed timeshift 
+sudo pacman -S --noconfirm --needed timeshift-systemd-timer 
+sudo pacman -S --noconfirm --needed tldr 
+sudo pacman -S --noconfirm --needed ttf-bitstream-vera 
+sudo pacman -S --noconfirm --needed ttf-dejavu 
+sudo pacman -S --noconfirm --needed ttf-jetbrains-mono 
+sudo pacman -S --noconfirm --needed ttf-jetbrains-mono-nerd 
+sudo pacman -S --noconfirm --needed ttf-liberation 
+sudo pacman -S --noconfirm --needed ttf-opensans 
+sudo pacman -S --noconfirm --needed ttf-terminus-nerd 
+sudo pacman -S --noconfirm --needed ufw 
+sudo pacman -S --noconfirm --needed ufw-extras 
+sudo pacman -S --noconfirm --needed unrar
+sudo pacman -S --noconfirm --needed unzip 
+sudo pacman -S --noconfirm --needed update-grub 
+sudo pacman -S --noconfirm --needed upower 
+sudo pacman -S --noconfirm --needed usb_modeswitch
+sudo pacman -S --noconfirm --needed usbutils 
+sudo pacman -S --noconfirm --needed vi 
+sudo pacman -S --noconfirm --needed vim 
+sudo pacman -S --noconfirm --needed volumeicon 
+sudo pacman -S --noconfirm --needed wget 
+sudo pacman -S --noconfirm --needed which
+sudo pacman -S --noconfirm --needed wireplumber 
+sudo pacman -S --noconfirm --needed wpa_actiond
+sudo pacman -S --noconfirm --needed wpa_supplicant 
+sudo pacman -S --noconfirm --needed xdg-user-dirs 
+sudo pacman -S --noconfirm --needed xdg-utils 
+sudo pacman -S --noconfirm --needed xf86-input-libinput
+sudo pacman -S --noconfirm --neededxf86-video-vesa 
+sudo pacman -S --noconfirm --needed xfburn 
+sudo pacman -S --noconfirm --needed xfce4-clipman-plugin 
+sudo pacman -S --noconfirm --needed xfce4-cpufreq-plugin 
+sudo pacman -S --noconfirm --needed xfce4-cpugraph-plugin 
+sudo pacman -S --noconfirm --neededxfce4-notifyd 
+sudo pacman -S --noconfirm --neededxfce4-power-manager 
+sudo pacman -S --noconfirm --neededxfce4-pulseaudio-plugin 
+sudo pacman -S --noconfirm --neededxfce4-taskmanager
 xfce4-terminal 1.1.1-2
-xfce4-time-out-plugin 1.1.3-1
-xfce4-timer-plugin 1.7.2-1
-xfce4-verve-plugin 2.0.3-1
-xfce4-wavelan-plugin 0.6.3-1
-xfce4-weather-plugin 0.11.1-1
-xfce4-whiskermenu-plugin 2.8.0-1
-xfce4-xkb-plugin 0.8.3-1
-xfdesktop 4.18.1-1
-xfsprogs 6.5.0-1
-xfwm4 4.18.0-2
-xfwm4-themes 4.10.0-5
 xl2tpd 1.3.18-1
 xorg-bdftopcf 1.1.1-1
 xorg-docs 1.7.2-2
@@ -334,9 +269,3 @@ xsane 0.999-6
 xterm 388-1
 yay 12.1.3-1
 zsh 5.9-4
-zsh-autosuggestions 0.7.0-2
-zsh-completions 0.35.0-1
-zsh-doc 5.9-4
-zsh-history-substring-search 1.1.0-1
-zsh-syntax-highlighting 0.7.1-1
-zsh-theme-powerlevel10k 1.19.0-1

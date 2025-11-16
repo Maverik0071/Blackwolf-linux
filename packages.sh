@@ -3,14 +3,9 @@
 ######################################## 
 
 $git clone https://aur.archlinux.org/yay-bin
-cd yay-bin
-makepkg -si
+$cd yay-bin
+$makepkg -si
 
-
-sudo pacman -S --no-confirm --needed accountsservice 
-sudo pacman -S --no-confirm --needed adobe-source-han-sans-cn- fonts 
-sudo pacman -S --noconfirm --needed adobe-source-han-sans-jp-fonts 
-sudo pacman -S --noconfirm --needed adobe-source-han-sans-kr-fonts 
 sudo pacman -S --noconfirm --needed alsa-firmware 
 sudo pacman -S --noconfirm --needed alsa-plugins 
 sudo pacman -S --noconfirm --needed alsa-utils
