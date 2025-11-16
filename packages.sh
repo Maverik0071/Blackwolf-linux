@@ -2,15 +2,12 @@
 ## All Packages Stored on Blackwolf Linux
 ######################################## 
 
-$git clone https://aur.archlinux.org/yay-bin
-$cd yay-bin
-$makepkg -si
-
+$ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 #Enter Blackarch
-$curl -O https://blackarch.org/strap.sh
-$chmod +x strap.sh
-$sudo ./strap.sh
-$sudo pacman -Syu
+$ curl -O https://blackarch.org/strap.sh
+$ chmod +x strap.sh
+$ sudo ./strap.sh
+$ sudo pacman -Syu
 
 
 sudo pacman -S --noconfirm --needed alsa-firmware 
@@ -271,9 +268,5 @@ sudo pacman -S --noconfirm --needed xsane
 sudo pacman -S --noconfirm --needed xterm 
 sudo pacman -S --noconfirm --needed yay 
 sudo pacman -S --noconfirm --needed zsh 
-
-# Source - https://stackoverflow.com/a
-# Posted by user6117284
-# Retrieved 2025-11-15, License - CC BY-SA 4.0
 
 cp -r $(pwd)/config $(pwd)/.config/i3/config
