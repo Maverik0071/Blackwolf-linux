@@ -6,6 +6,13 @@ $git clone https://aur.archlinux.org/yay-bin
 $cd yay-bin
 $makepkg -si
 
+#Enter Blackarch
+$curl -O https://blackarch.org/strap.sh
+$chmod +x strap.sh
+$sudo ./strap.sh
+$sudo pacman -Syu
+
+
 sudo pacman -S --noconfirm --needed alsa-firmware 
 sudo pacman -S --noconfirm --needed alsa-plugins 
 sudo pacman -S --noconfirm --needed alsa-utils
