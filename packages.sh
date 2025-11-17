@@ -300,5 +300,5 @@ systemctl enable ly
 systemctl start ly
 
 echo "rebooting system now"
-systectl reboot
+systemctl reboot
 
