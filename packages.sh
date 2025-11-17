@@ -296,6 +296,7 @@ sudo pacman -S --noconfitm --needed kitty
 sudo pacman -S --noconfirm --needed pa-applet-git 
 
 mv ~/Blackwolf-linux/config/i3/config ~/.config/i3/
+mv ~/Blackwolf-linux/config ~/.config
 
 echo "enabling Ly Display Manager, if you dont like it install your own" 
 systemctl enable ly
