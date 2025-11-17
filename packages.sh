@@ -1,14 +1,35 @@
 ########################################
 ## All Packages Stored on Blackwolf Linux
 ######################################## 
+echo "installing Yay!" Arch linux package helper
 
-$ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
-#Enter Blackarch
-$ curl -O https://blackarch.org/strap.sh
-$ chmod +x strap.sh
-$ sudo ./strap.sh
-$ sudo pacman -Syu
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
+echo "Enter Blackarch"
+############################
+
+curl -O https://blackarch.org/strap.sh
+chmod +x strap.sh
+sudo ./strap.sh
+sudo pacman -Syu
+
+echo "Installing chaotic aur"
+
+sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
+sudo pacman-key --lsign-key 3056513887B78AEB
+
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+
+# Then, we append (adding at the end) the following to /etc/pacman.conf:
+echo " Add this in /etc/pacman.conf towards the end
+# [chaotic-aur]
+# Include = /etc/pacman.d/chaotic-mirrorlist "
+
+sudo pacman -Syu
+#################
+# Normal Packages
+#################
 
 sudo pacman -S --noconfirm --needed alsa-firmware 
 sudo pacman -S --noconfirm --needed alsa-plugins 
@@ -267,6 +288,21 @@ sudo pacman -S --noconfirm --needed xorg-xwud
 sudo pacman -S --noconfirm --needed xsane 
 sudo pacman -S --noconfirm --needed xterm 
 sudo pacman -S --noconfirm --needed yay 
-sudo pacman -S --noconfirm --needed zsh 
+sudo pacman -S --noconfirm --needed zsh
+sudo pacman -S --noconfirm --needed alacritty
+sudo pacman -S --noconfitm --needed kitty
+sudo pacman -S --noconfirm --needed pa-applet-git 
 
-cp -r $(pwd)/config $(pwd)/.config/i3/config
+echo "copying i3 config files into main directory" 
+
+for file in ./Blacwolf-linux/*/; do 
+   cp ./config2* ./"$config/i3/"
+   done
+
+echo "enabling Ly Display Manager, if you dont like it install your own"
+sudo systemctl enable ly
+sudo systemctl start ly
+
+echo "rebooting system now"
+sudo systectl reboot
+
