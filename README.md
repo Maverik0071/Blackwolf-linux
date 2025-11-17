@@ -60,6 +60,6 @@ https://github.com/nvim-lua/kickstart.nvim
 - also apennd the chaotic aur in <code> /etc/pacman.conf </code>
 - copy and paste !!!!!!!!!!
 - Then, we append (adding at the end) the following to /etc/pacman.conf: 
-- [chaotic-aur]
-- Include = /etc/pacman.d/chaotic-mirrorlist
+- <code> [chaotic-aur]
+  Include = /etc/pacman.d/chaotic-mirrorlist </code> 
 
