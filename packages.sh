@@ -3,7 +3,7 @@
 ######################################## 
 echo "installing Yay!" Arch linux package helper
 
-sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+sudo pacman -S --noconfirm --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 echo "Enter Blackarch"
 ############################
@@ -11,15 +11,15 @@ echo "Enter Blackarch"
 curl -O https://blackarch.org/strap.sh
 chmod +x strap.sh
 sudo ./strap.sh
-sudo pacman -Syu
+sudo pacman -Syu --noconfirm --needed
 
 echo "Installing chaotic aur"
 
 sudo pacman-key --recv-key 3056513887B78AEB --keyserver keyserver.ubuntu.com
 sudo pacman-key --lsign-key 3056513887B78AEB
 
-sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
-sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+sudo pacman -U --noconfirm --needed 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
+sudo pacman -U --noconfirm --needed 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 
 ####################################
 ######## Then, we append (adding at the end) the following to /etc/pacman.conf:
@@ -28,7 +28,7 @@ sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg
 # ######    Include = /etc/pacman.d/chaotic-mirrorlist "
 ####################################
 
-sudo pacman -Syu
+sudo pacman -Syu --noconfirm --needed
 #################
 # Normal Packages
 #################
@@ -294,6 +294,8 @@ sudo pacman -S --noconfirm --needed zsh
 sudo pacman -S --noconfirm --needed alacritty
 sudo pacman -S --noconfitm --needed kitty
 sudo pacman -S --noconfirm --needed pa-applet-git 
+
+mv ~/Blackwolf-linux/config/i3/config ~/.config/i3/
 
 echo "enabling Ly Display Manager, if you dont like it install your own" 
 systemctl enable ly
