@@ -21,10 +21,12 @@ sudo pacman-key --lsign-key 3056513887B78AEB
 sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
 sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
 
-# Then, we append (adding at the end) the following to /etc/pacman.conf:
-echo " Add this in /etc/pacman.conf towards the end
-# [chaotic-aur]
-# Include = /etc/pacman.d/chaotic-mirrorlist "
+####################################
+######## Then, we append (adding at the end) the following to /etc/pacman.conf:
+# ###### echo " Add this in /etc/pacman.conf towards the end
+# ######                [chaotic-aur]
+# ######    Include = /etc/pacman.d/chaotic-mirrorlist "
+####################################
 
 sudo pacman -Syu
 #################
