@@ -293,7 +293,8 @@ sudo pacman -S --noconfirm --needed alacritty
 sudo pacman -S --noconfitm --needed kitty
 sudo pacman -S --noconfirm --needed pa-applet-git 
 
-echo "enabling Ly Display Manager, if you dont like it install your own" systemctl enable ly
+echo "enabling Ly Display Manager, if you dont like it install your own" 
+systemctl enable ly
 systemctl start ly
 
 echo "rebooting system now"
