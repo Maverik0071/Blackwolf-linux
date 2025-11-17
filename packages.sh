@@ -293,12 +293,6 @@ sudo pacman -S --noconfirm --needed alacritty
 sudo pacman -S --noconfitm --needed kitty
 sudo pacman -S --noconfirm --needed pa-applet-git 
 
-echo "copying i3 config files into main directory" 
-
-for file in ./Blacwolf-linux/*/; do 
-   cp ./config2* ./"$config/i3/"
-   done
-
 echo "enabling Ly Display Manager, if you dont like it install your own"
 sudo systemctl enable ly
 sudo systemctl start ly

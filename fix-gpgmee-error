@@ -1,0 +1,10 @@
+#  if all else fails use this for the gpg keys if theyre not working and type:
+
+sudo rm /var/lib/pacman/sync/*.sig
+
+sudo pacman -Syyu
+
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring.pkg.tar.zst'
+sudo pacman -U 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-mirrorlist.pkg.tar.zst'
+
+
